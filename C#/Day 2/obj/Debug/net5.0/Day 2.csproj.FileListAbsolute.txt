@@ -1,0 +1,16 @@
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\obj\Debug\net5.0\Day 2.csproj.AssemblyReference.cache
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\obj\Debug\net5.0\Day 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\obj\Debug\net5.0\Day 2.AssemblyInfoInputs.cache
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\obj\Debug\net5.0\Day 2.AssemblyInfo.cs
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\obj\Debug\net5.0\Day 2.csproj.CoreCompileInputs.cache
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\bin\Debug\net5.0\Day 2.exe
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\bin\Debug\net5.0\Day 2.deps.json
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\bin\Debug\net5.0\Day 2.runtimeconfig.json
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\bin\Debug\net5.0\Day 2.runtimeconfig.dev.json
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\bin\Debug\net5.0\Day 2.dll
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\bin\Debug\net5.0\ref\Day 2.dll
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\bin\Debug\net5.0\Day 2.pdb
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\obj\Debug\net5.0\Day 2.dll
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\obj\Debug\net5.0\ref\Day 2.dll
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\obj\Debug\net5.0\Day 2.pdb
+C:\Users\samol\OneDrive\Web Development\Github\Advent Of Code 2021\Day 2\obj\Debug\net5.0\Day 2.genruntimeconfig.cache
