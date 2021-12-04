@@ -11,7 +11,6 @@ namespace Day_2
             int horizontalPos = 0;
             int verticalPos = 0;
             int aim = 0;
-            int i = 0;
 
             foreach(string row in input){
                 string[] rowData = row.Split(" ");
