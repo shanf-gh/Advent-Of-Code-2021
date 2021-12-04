@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samol\\OneDrive\\Web Development\\Github\\Advent Of Code 2021\\c#\\Day 3\\Day 3.csproj": {}
+    "C:\\Users\\samol\\OneDrive\\Web Development\\Github\\Advent Of Code 2021\\C#\\Day 3\\Day 3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samol\\OneDrive\\Web Development\\Github\\Advent Of Code 2021\\c#\\Day 3\\Day 3.csproj": {
+    "C:\\Users\\samol\\OneDrive\\Web Development\\Github\\Advent Of Code 2021\\C#\\Day 3\\Day 3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samol\\OneDrive\\Web Development\\Github\\Advent Of Code 2021\\c#\\Day 3\\Day 3.csproj",
+        "projectUniqueName": "C:\\Users\\samol\\OneDrive\\Web Development\\Github\\Advent Of Code 2021\\C#\\Day 3\\Day 3.csproj",
         "projectName": "Day 3",
-        "projectPath": "C:\\Users\\samol\\OneDrive\\Web Development\\Github\\Advent Of Code 2021\\c#\\Day 3\\Day 3.csproj",
+        "projectPath": "C:\\Users\\samol\\OneDrive\\Web Development\\Github\\Advent Of Code 2021\\C#\\Day 3\\Day 3.csproj",
         "packagesPath": "C:\\Users\\samol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samol\\OneDrive\\Web Development\\Github\\Advent Of Code 2021\\c#\\Day 3\\obj\\",
+        "outputPath": "C:\\Users\\samol\\OneDrive\\Web Development\\Github\\Advent Of Code 2021\\C#\\Day 3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages"
