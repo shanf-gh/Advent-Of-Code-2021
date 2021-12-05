@@ -57,7 +57,11 @@ namespace Day_4
             Console.WriteLine($"Result: {result}");
             // Calculate score
             // Sum of unmarked numbers multiplied by last number called
-            
+
+            // Part 2: Last winning board
+            int lastWinBoardResult = letTheSquidWin(drawnNumbers, Boards);
+            Console.WriteLine($"lastWinBoard result: {lastWinBoardResult}");
+
         }
 
         private static int bingobingo(List<String> drawnNumbers, List<Board> Boards) {
@@ -75,6 +79,25 @@ namespace Day_4
                 //Console.ReadLine();
             }
             return -1;
+        }
+
+        private static int letTheSquidWin(List<String> drawnNumbers, List<Board> Boards) {
+            List<int> winningBoards = new List<int>();
+            List<int> winningBoardsResult = new List<int>();
+
+            foreach(string number in drawnNumbers) {
+                for(int i = 0; i < Boards.Count(); i++) {
+                    if(!winningBoards.Contains(i)) {
+                        if(Boards[i].checkNumber(number)) {
+                            // calculate board if board wins
+                            // Console.WriteLine($"Board {i} wins");
+                            winningBoards.Add(i);
+                            winningBoardsResult.Add(Boards[i].calcBoard() * Convert.ToInt32(number));
+                        }   
+                    }
+                }
+            }
+            return winningBoardsResult.Last();
         }
     }
 
@@ -135,7 +158,6 @@ namespace Day_4
         // Calculate board
         public int calcBoard() {
             int sum = 0;
-
             for(int row = 0; row < 5; row++) {
                 for(int column = 0; column < 5; column++) {
                     if(!boardCheck[row,column]) {
