@@ -13,8 +13,8 @@ namespace Day_7
             string inputFile = "input.txt";
             int[] crabPositions = Array.ConvertAll(File.ReadLines(inputFile).First().Split(','), s => int.Parse(s));
             
-            Console.WriteLine("Part 1 - Constant consumption: {0}", calculateFuelConsumption(crabPositions, getMedian(crabPositions), false));
-            Console.WriteLine("Part 2 - increasing consumption: {0}", calculateFuelConsumption(crabPositions, getMedian(crabPositions), true));
+            Console.WriteLine("Part 1 - Constant consumption: {0}", calculateFuelConsumption(crabPositions, getMedian(crabPositions), true));
+            Console.WriteLine("Part 2 - increasing consumption: {0}", calculateFuelConsumption(crabPositions, getMedian(crabPositions), false));
             
         }
 
@@ -46,9 +46,22 @@ namespace Day_7
         private static int calculateFuelConsumption(int[] crabPos, decimal median, Boolean constantConsumption) {
             int fuelConsumption = 0;
             int medianInt = decimal.ToInt32(median);
-
+            int avgInt = (int)Math.Floor(crabPos.Average());
+            
             foreach(int crab in crabPos) {
-                fuelConsumption += Math.Abs(crab - medianInt);
+
+                if(constantConsumption) {
+                    // constant consumption - consumption equal nbr moves
+                    fuelConsumption += Math.Abs(crab - medianInt);
+                } else {
+                    // if consumption is not constant calculate the consumption;
+                    int crabConsumption = 0;
+                    for(int i = 1; i <= Math.Abs(crab - avgInt); i++) {
+                        crabConsumption += i;
+                    } 
+                    fuelConsumption += crabConsumption;
+                }
+
                 // Console.WriteLine("Current crab position: {0}; {}; {}", crab, crab - medianInt);
             }
 
