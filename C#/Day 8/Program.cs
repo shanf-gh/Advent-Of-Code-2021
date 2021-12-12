@@ -100,7 +100,7 @@ namespace Day_8
             // foreach(var output in outputDecoded) {
             //     Console.WriteLine(outputDecoded[]);
             // }
-            value = outputDecoded.Select(x).Sum();
+            value = outputDecoded.Select(x => ).Sum();
             // value = outputDecoded.Select(x => int.Parse(string.Join("", x.Select(digit => digit.ToString())))).Sum();
 
             // count numbers
